@@ -270,7 +270,7 @@
     <!-- Header -->
     <header>
         <div class="logo">
-            <img src="https://via.placeholder.com/40/00bfff/ffffff?text=GS" alt="GembaSight Logo">
+            <img src="gembasight.png" alt="GembaSight Logo">
             GembaSight
         </div>
         <nav>
@@ -301,22 +301,22 @@
             <div class="step">
                 <div class="step-number">01</div>
                 <p>We will first asses what opportunities there are to take your business to the next level.</p>
-                <img src="image.jpg.jpg" alt="Assessment Image"> <!-- Replaced with fancy building photo -->
+                <img src="https://www.planettogether.com/hubfs/blog_images/7wastes.jpg" alt="Assessment Image">
             </div>
             <div class="step">
                 <div class="step-number">02</div>
                 <p>Next, we will present recommendations on what solutions will have the best ROI.</p>
-                <img src="https://via.placeholder.com/250x150?text=Recommendations" alt="Recommendations Image"> <!-- No specific replacement, kept placeholder -->
+                <img src="https://media.licdn.com/dms/image/v2/D5622AQGaNDXQCbwJGw/feedshare-shrink_800/feedshare-shrink_800/0/1693519004981?e=1760572800&v=beta&t=nPrUHirAoqLYikDiwI4Ep5UhJMHtgFyFNjOAWKwW7K4" alt="Recommendations Image">
             </div>
             <div class="step">
                 <div class="step-number">03</div>
                 <p>Then will will design and build custom software and hardware solutions to fit your needs.</p>
-                <img src="https://via.placeholder.com/250x150?text=Design+&+Build" alt="Design Image"> <!-- No specific replacement, kept placeholder -->
+                <img src="IMG_5473.jpg" alt="Design Image">
             </div>
             <div class="step">
                 <div class="step-number">04</div>
                 <p>Finally, we will implement our products, provide extended support and a 30 day money back guarantee.</p>
-                <img src="IMG_4952 (1).jpeg" alt="Implementation Image"> <!-- Replaced with implementation photo -->
+                <img src="IMG_4952 (1).jpeg" alt="Implementation Image">
             </div>
         </div>
     </section>
@@ -326,19 +326,19 @@
         <h2>Meet Our Team</h2>
         <div class="team-members">
             <div class="member">
-                <img src="IMG_4781.JPG" alt="Jack Callinan"> <!-- Replaced with Jack's photo -->
+                <img src="IMG_4781.JPG" alt="Jack Callinan">
                 <h3>Jack Callinan</h3>
-                <p>INDUSTRIAL ENGINEER</p>
+                <p>Industrial engineer</p>
             </div>
             <div class="member">
-                <img src="ross.png" alt="Ross Volkov"> <!-- Replaced with Ross's photo -->
+                <img src="ross.png" alt="Ross Volkov">
                 <h3>Ross Volkov</h3>
-                <p>AI Engineer</p>
+                <p>AI engineer</p>
             </div>
             <div class="member">
-                <img src="jj.png" alt="Johnathan Ose"> <!-- Replaced with Johnathan's photo -->
+                <img src="jj.png" alt="Johnathan Ose">
                 <h3>Johnathan Ose</h3>
-                <p>Mechanical Engineer</p>
+                <p>Mechanical engineer</p>
             </div>
         </div>
     </section>
@@ -347,7 +347,7 @@
     <section>
         <h2>The Problem</h2>
         <div class="problem-container">
-            <img class="problem-image" src="https://via.placeholder.com/400?text=PPE+Issue" alt="PPE Problem Image"> <!-- No specific replacement, kept placeholder -->
+            <img class="problem-image" src="Computer-Vision-Blog-image.jpeg" alt="PPE Problem Image">
             <div>
                 <div class="step-number">01</div>
                 <p>Average Workers Comp In Manufacturing: 50k (Injury Facts)</p>
@@ -370,7 +370,7 @@
                 <h3>Streamlined Alerts and Tracking</h3>
                 <p>Automatically sends alerts to supervisos and keeps track of trends.</p>
             </div>
-            <img class="feature-image" src="https://via.placeholder.com/400?text=Standard+Service" alt="Standard Service Image"> <!-- No specific replacement, kept placeholder -->
+            <img class="feature-image" src="https://via.placeholder.com/400?text=Standard+Service" alt="Standard Service Image">
         </div>
     </section>
 
@@ -378,7 +378,7 @@
     <section>
         <h2>Our CV Vision</h2>
         <div class="problem-container">
-            <img class="vision-image" src="https://via.placeholder.com/500?text=CV+Vision" alt="CV Vision Image"> <!-- No specific replacement, kept placeholder -->
+            <img class="vision-image" src="image.jpg.jpg" alt="CV Vision Image">
             <div>
                 <div class="step-number">01</div>
                 <h3>Simulation Data</h3>
