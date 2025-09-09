@@ -310,7 +310,7 @@
             </div>
             <div class="step">
                 <div class="step-number">03</div>
-                <p>Then will will design and build custom software and hardware solutions to fit your needs.</p>
+                <p>Then we will design and build custom software and hardware solutions to fit your needs.</p>
                 <img src="IMG_5473.jpg" alt="Design Image">
             </div>
             <div class="step">
