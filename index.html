@@ -168,10 +168,11 @@
             text-align: center;
         }
         .member img {
-            width: 150px;
-            height: 150px;
+            width: 160px; /* Slightly larger to zoom out */
+            height: 160px;
             border-radius: 50%;
             object-fit: cover;
+            object-position: top; /* Pan up to include hair */
             border: 3px solid #00ff7f; /* Neon green border */
         }
         .member h3 {
@@ -260,6 +261,10 @@
             }
             .problem-image, .feature-image, .vision-image {
                 height: 200px; /* Adjusted height for mobile */
+            }
+            .member img {
+                width: 140px; /* Slightly smaller for mobile */
+                height: 140px;
             }
         }
     </style>
