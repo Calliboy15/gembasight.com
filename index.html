@@ -147,6 +147,8 @@
         }
         .step img {
             width: 100%;
+            height: 150px; /* Fixed height for consistent cropping */
+            object-fit: cover; /* Improved cropping */
             border-radius: 10px;
             margin-top: 1rem;
         }
@@ -190,7 +192,10 @@
             align-items: center;
         }
         .problem-image {
-            width: 400px;
+            width: 100%;
+            max-width: 400px;
+            height: 250px; /* Fixed height for consistent cropping */
+            object-fit: cover; /* Improved cropping */
             border-radius: 20px;
         }
 
@@ -199,14 +204,20 @@
             max-width: 600px;
         }
         .feature-image {
-            width: 400px;
+            width: 100%;
+            max-width: 400px;
+            height: 400px; /* Fixed height for consistent cropping */
+            object-fit: cover; /* Improved cropping */
             border-radius: 50%;
             border: 5px solid #00ff7f;
         }
 
         /* CV Vision */
         .vision-image {
-            width: 500px;
+            width: 100%;
+            max-width: 500px;
+            height: 300px; /* Fixed height for consistent cropping */
+            object-fit: cover; /* Improved cropping */
             border-radius: 20px;
         }
 
@@ -231,17 +242,6 @@
             border-radius: 50%;
         }
 
-        /* Thank You Footer */
-        footer {
-            background-color: #001f3f;
-            color: #fff;
-            text-align: center;
-            padding: 2rem;
-        }
-        footer h2 {
-            font-size: 3rem;
-        }
-
         /* Responsive Design */
         @media (max-width: 768px) {
             header {
@@ -257,6 +257,9 @@
             }
             .step-container, .team-members, .problem-container {
                 flex-direction: column;
+            }
+            .problem-image, .feature-image, .vision-image {
+                height: 200px; /* Adjusted height for mobile */
             }
         }
     </style>
@@ -349,9 +352,9 @@
         <div class="problem-container">
             <img class="problem-image" src="Computer-Vision-Blog-image.jpeg" alt="PPE Problem Image">
             <div>
+                <h3>Incorrect PPE Use</h3>
                 <div class="step-number">01</div>
                 <p>Average Workers Comp In Manufacturing: 50k (Injury Facts)</p>
-                <h3>Incorrect PPE Use</h3>
                 <div class="step-number">02</div>
                 <p>Osha says 45% are preventable by correct PPE use.</p>
             </div>
@@ -411,15 +414,10 @@
             </div>
             <div class="contact-item">
                 <i class="fas fa-map-marker-alt"></i>
-                <a href="https://maps.google.com/?q=1307+4th+ST+SE+#510+Minneapolis+MN" target="_blank">1307 4th ST SE #510 Minneapolis MN</a>
+                <p>Minneapolis, MN</p>
             </div>
         </div>
     </section>
-
-    <!-- Thank You Footer -->
-    <footer>
-        <h2>THANK YOU</h2>
-    </footer>
 
 </body>
 </html>
