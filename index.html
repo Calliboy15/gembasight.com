@@ -47,11 +47,11 @@
             font-weight: bold;
         }
         .logo img {
-            width: 60px; /* Increased size for better readability */
+            width: 60px;
             height: 60px;
             margin-right: 0.5rem;
             border-radius: 50%;
-            background-color: #00bfff; /* Light blue accent */
+            background-color: #00bfff;
         }
         nav ul {
             display: flex;
@@ -63,7 +63,7 @@
             transition: color 0.3s;
         }
         nav ul li a:hover {
-            color: #00ff7f; /* Neon green accent */
+            color: #00ff7f;
         }
         .nav-dots {
             display: flex;
@@ -83,7 +83,7 @@
         /* Hero Section */
         #home {
             height: 100vh;
-            background-image: url('1-a197e7a7 2.jpeg'); /* Replaced with provided photo */
+            background-image: url('1-a197e7a7 2.jpeg');
             background-size: cover;
             background-position: center;
             display: flex;
@@ -142,13 +142,13 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            margin-bottom: 1rem;
+            margin: 0 auto 1rem;
             font-weight: bold;
         }
         .step img {
             width: 100%;
-            height: 150px; /* Fixed height for consistent cropping */
-            object-fit: cover; /* Improved cropping */
+            height: 150px;
+            object-fit: cover;
             border-radius: 10px;
             margin-top: 1rem;
         }
@@ -168,12 +168,12 @@
             text-align: center;
         }
         .member img {
-            width: 160px; /* Slightly larger to zoom out */
+            width: 160px;
             height: 160px;
             border-radius: 50%;
             object-fit: cover;
-            object-position: top; /* Pan up to include hair */
-            border: 3px solid #00ff7f; /* Neon green border */
+            object-position: top;
+            border: 3px solid #00ff7f;
         }
         .member h3 {
             margin-top: 1rem;
@@ -189,37 +189,35 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 2rem;
             align-items: center;
+            gap: 20px;
+            max-width: 1200px;
         }
-        .problem-image {
-            width: 100%;
-            max-width: 400px;
-            height: 250px; /* Fixed height for consistent cropping */
-            object-fit: cover; /* Improved cropping */
+        .problem-container img, .feature-image {
+            max-width: 40%;
+            height: auto;
             border-radius: 20px;
         }
-
-        /* Standard Service */
-        .service-feature {
-            max-width: 600px;
-        }
-        .feature-image {
-            width: 100%;
-            max-width: 400px;
-            height: 400px; /* Fixed height for consistent cropping */
-            object-fit: cover; /* Improved cropping */
-            border-radius: 50%;
-            border: 5px solid #00ff7f;
-        }
-
-        /* CV Vision */
         .vision-image {
-            width: 100%;
-            max-width: 500px;
-            height: 300px; /* Fixed height for consistent cropping */
-            object-fit: cover; /* Improved cropping */
+            max-width: 30%;
+            height: auto;
             border-radius: 20px;
+        }
+        .service-feature, .problem-container > div {
+            flex: 1;
+            text-align: left;
+        }
+        .problem-container h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        .problem-container p {
+            font-size: 1rem;
+        }
+        .step-number:not(.step .step-number) {
+            font-weight: bold;
+            color: #007BFF;
+            margin: 10px 0;
         }
 
         /* Contact Section */
@@ -259,22 +257,20 @@
             .step-container, .team-members, .problem-container {
                 flex-direction: column;
             }
-            .problem-image, .feature-image, .vision-image {
-                height: 200px; /* Adjusted height for mobile */
+            .problem-container img, .feature-image, .vision-image {
+                max-width: 100%;
+                height: 200px;
             }
             .member img {
-                width: 140px; /* Slightly smaller for mobile */
+                width: 140px;
                 height: 140px;
             }
         }
     </style>
-    <!-- Add Font Awesome for icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <!-- Google Fonts for Roboto -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
     <!-- Header -->
     <header>
         <div class="logo">
@@ -329,59 +325,7 @@
         </div>
     </section>
 
-    <!-- Meet Our Team -->
-    <section id="about">
-        <h2>Meet Our Team</h2>
-        <div class="team-members">
-            <div class="member">
-                <img src="IMG_4781.JPG" alt="Jack Callinan">
-                <h3>Jack Callinan</h3>
-                <p>Industrial engineer</p>
-            </div>
-            <div class="member">
-                <img src="ross.jpeg" alt="Ross Volkov">
-                <h3>Ross Volkov</h3>
-                <p>AI engineer</p>
-            </div>
-            <div class="member">
-                <img src="jj.png" alt="Johnathan Ose">
-                <h3>Johnathan Ose</h3>
-                <p>Mechanical engineer</p>
-            </div>
-        </div>
-    </section>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Services</ брю>
-    <style>
-        .problem-container {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-        }
-        .problem-container img, .feature-image {
-            max-width: 40%;
-            height: auto;
-        }
-        .vision-image {
-            max-width: 30%;
-            height: auto;
-        }
-        .service-feature, .problem-container > div {
-            flex: 1;
-        }
-        .step-number {
-            font-weight: bold;
-            color: #007BFF;
-            margin: 10px 0;
-        }
-    </style>
-</head>
-<body>
- <!-- The Problem -->
+    <!-- The Problem -->
     <section>
         <h2>The Problem</h2>
         <div class="problem-container">
@@ -420,17 +364,38 @@
             <div>
                 <div class="step-number">01</div>
                 <h3>Simulations</h3>
-                <p>Automatically updates a digital twin of the factory. Keeping track of progress, optimizing line balancing and resrouces.</p>
+                <p>Automatically updates a digital twin of the factory. Keeping track of progress, optimizing line balancing and resources.</p>
                 <div class="step-number">02</div>
                 <h3>IOT Hardware</h3>
                 <p>IOT fobs allow for easy time studies when moving across stations or across long time scales.</p>
                 <div class="step-number">03</div>
-                <h3>Real Time Saftey Enforcment</h3>
-                <p>Easily set up your own camera driven saftey system driven by GembaSight AI and IOT hardwarem.</p>
+                <h3>Real Time Safety Enforcement</h3>
+                <p>Easily set up your own camera-driven safety system driven by GembaSight AI and IOT hardware.</p>
             </div>
         </div>
     </section>
 
+    <!-- Meet Our Team -->
+    <section id="about">
+        <h2>Meet Our Team</h2>
+        <div class="team-members">
+            <div class="member">
+                <img src="IMG_4781.JPG" alt="Jack Callinan">
+                <h3>Jack Callinan</h3>
+                <p>Industrial engineer</p>
+            </div>
+            <div class="member">
+                <img src="ross.jpeg" alt="Ross Volkov">
+                <h3>Ross Volkov</h3>
+                <p>AI engineer</p>
+            </div>
+            <div class="member">
+                <img src="jj.png" alt="Johnathan Ose">
+                <h3>Johnathan Ose</h3>
+                <p>Mechanical engineer</p>
+            </div>
+        </div>
+    </section>
 
     <!-- Contact -->
     <section id="contact">
@@ -454,6 +419,5 @@
             </div>
         </div>
     </section>
-
 </body>
 </html>
